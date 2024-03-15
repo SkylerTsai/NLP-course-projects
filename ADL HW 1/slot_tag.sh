@@ -1,0 +1,1 @@
+python3 test_slot.py --test_file "${1}" --ckpt_path best_slot.pt --pred_file "${2}" --max_len=128 --batch_size=128 --hidden_size=256 --num_layers=2 --dropout=0.1 --bidirectional=True
